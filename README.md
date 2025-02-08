@@ -19,46 +19,22 @@ To use this tool, you need to have the AWS CLI installed and configured.
 
 🔹 Windows:
 Download the AWS CLI installer from AWS CLI Official Website
-Run the installer and follow the on-screen instructions
-Verify installation by running:
-sh
-Copy
-Edit
-aws --version
-Expected output: aws-cli/2.x.x
+
 🔹 macOS (via Homebrew):
-sh
-Copy
-Edit
 brew install awscli
-aws --version
+
 🔹 Linux (via package manager):
-sh
-Copy
-Edit
+
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 unzip awscliv2.zip
 sudo ./aws/install
-aws --version
-Step 2: Configure AWS CLI
-Once AWS CLI is installed, configure it with your AWS credentials:
 
-sh
-Copy
-Edit
-aws configure
+  aws configure
 You'll be prompted to enter:
 ✅ AWS Access Key ID
 ✅ AWS Secret Access Key
 ✅ Default region name (e.g., ap-south-1 for Mumbai)
 ✅ Default output format (press Enter to keep default json)
-
-Verify configuration by listing available AWS regions:
-
-sh
-Copy
-Edit
-aws ec2 describe-regions --output table
 
 Step 2: Run the AWS EBS Volume Resizer Tool
 
