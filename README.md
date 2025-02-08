@@ -37,5 +37,5 @@ Pull requests are welcome! Feel free to fork the repository and improve the tool
 
 ### **2️⃣ Clone the Repository**  
 ```sh
-git clone https://github.com/your-username/aws-ebs-resizer.git
+git clone https://github.com/ankitvhaval/AWS-EBS-Volume-Resizer-tool.git
 cd aws-ebs-resizer
